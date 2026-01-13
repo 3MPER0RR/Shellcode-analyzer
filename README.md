@@ -20,7 +20,9 @@ Supports .bin and .dat raw shellcode files
 
 ## Project structure:
 ├── sc_analyzer        # C core analyzer
+
 ├── scgui.py            # Python GUI frontend
+
 └── samples/            # Example shellcode .bin files
 
 ## ⚠️​ The analyzer performs static analysis only.
