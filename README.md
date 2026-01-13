@@ -13,6 +13,8 @@ sudo dnf install python3 python3-tkinter
 ## GUI mode
 Python3 scgui.py 
 
+![GUI Screenshot] https://github.com/3MPER0RR/Shellcode-analyzer/blob/b42cae0a69b539ba526be41e18d338c7363e52b0/scgui.png
+
 ## Cli mode
 ./sc_analyzer shellcodesample.bin
 Supports .bin and .dat raw shellcode files
