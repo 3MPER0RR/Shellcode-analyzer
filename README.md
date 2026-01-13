@@ -4,6 +4,8 @@
 OS:Linux (Unix-like)
 Tkinter (python3-tk)
 
+## Tested on Linux Debian
+
 ## Install on Arch Linux
 sudo pacman -S python tk
 
