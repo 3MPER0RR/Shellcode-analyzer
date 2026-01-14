@@ -17,7 +17,7 @@ sudo dnf install python3 python3-tkinter
 
 ├── scgui.py            # Python GUI frontend
 
-└── samples/            # Example shellcode .bin files
+└── samples.bin         # Example shellcode .bin files
 
 ## Cli mode
 ./sc_analyzer shellcodesample.bin
@@ -30,6 +30,23 @@ Python3 scgui.py
 
 ![Shellcode Analyzer GUI](scgui.png)
 
+## install the requirements and then compile the source code 
+
+## Arch Linux 
+
+sudo pacman -S gcc capstone
+
+## Fedora 
+
+sudo dnf install gcc capstone capstone-devel
+
+## Debian / Ubuntu 
+
+sudo apt install build-essential libcapstone-dev
+
+## compile gcc scanalyzer.c -o sc_analyzer -lcapstone
+
+## ./sc_analyzer shellcodesample.bin
 
 ## ⚠️​ The analyzer performs static analysis only.
 ## Shellcode is never executed.
